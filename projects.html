@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>Motion Graphics Designer - Connie</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="cpstyle.css" title="style" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body class="wrap-projects">
+    <header>
+        <nav id="navbar"> 
+            <video autoplay loop muted id="logo-loop">
+                <source src="videos/Logo_Loop_SQ.mp4" type="video/mp4" />
+                    Your browser does not support the mp4 file. Please change your browser!
+            </video>
+            <ul class="navbar-items">
+                <li><a href="index.html#demoreel">Show Reel</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <img src="images/menu-4-48.png">
+            </div>
+        </nav>
+        
+    </header>
+        
+    <main>
+        <h2>Projects</h2>
+        
+        <div class="movie-wrapper">
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/348726601?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349790127?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349790691?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349791955?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349792067?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349792112?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349792187?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349792341?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349792438?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349792591?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349792772?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+
+            <iframe class="movie-projects puff-in-center" src="https://player.vimeo.com/video/349793372?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="wrap-footer">
+            <h2>Social</h2>
+            <ul>
+                <li><a href="https://twitter.com/conniepico"><img src="images/twitter-4-24.png" alt="twitter"></a></li>
+                <li><a href="https://vimeo.com/user9624280"><img src="images/vimeo-4-24.png" alt="vimeo"></a></li>
+                <li><a href="https://www.instagram.com/connie.pico/"><img src="images/instagram-4-24.png" alt="instagram"></a></li>
+                <li><a href="https://www.linkedin.com/in/connie-pico-b7a838103/"><img src="images/linkedin-4-24.png" alt="linkedin"></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script>
+    var $animation_elements = $('.animation-element');
+        var $window = $(window);
+        
+        function check_if_in_view() {
+            var window_height = $window.height();
+            var window_top_position = $window.scrollTop();
+            var window_bottom_position = (window_top_position + window_height);
+            
+            $.each($animation_elements, function() {
+                var $element = $(this);
+                var element_height = $element.outerHeight();
+                var element_top_position = $element.offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+                
+                //check to see if this current container is within viewport
+                
+                if ((element_bottom_position >= window_top_position) &&
+                   (element_top_position <= window_bottom_position)) {
+                    $element.addClass('in-view');
+                } else {
+                    $element.removeClass('in-view');
+                }
+            });
+        }
+        
+        $window.on('scroll resize', check_if_in_view);
+        $window.trigger('scroll');
+        
+    $(document).ready(function(){
+        $(".hamburger").click(function(){
+            $(".navbar-items").toggle();
+        })
+    })
+    </script>
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
